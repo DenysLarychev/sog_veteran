@@ -1,0 +1,89 @@
+@import 'skeleton';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 0 auto;
+
+}
+.contacts-grand-title {
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+    font-weight: 700;
+    color: $master-color;
+    text-transform: uppercase;
+    border-bottom: 1px dotted $g_color;
+}
+
+.telefon {
+
+    &__title {
+    }
+}
+.email {
+
+    &__title {
+    }
+}
+.address {
+
+    &__title {
+    }
+
+    &__info {
+    }
+}
+
+.subblock {
+    margin: 20px 0 0 0;
+    line-height: 1.5;
+}
+.title {
+    color: $g_color;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+
+    font-weight: 700;
+
+    & a {
+        color: $g_color;
+        text-decoration: underline;
+    }
+}
+
+.info-details {
+    color: $g_color;
+    text-decoration: underline;
+}
+
+.content__block-1 {
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: $sec-nd_master_color;
+    padding: 20px;
+    height: 300px;
+    line-height: 1.2;
+}
+
+.footer__item {
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .content {
+        margin: 89px 0 0 0;
+        font-size: 18px;
+    }
+    .contacts-grand-title {
+        font-size: 21px;
+        line-height: 3;
+    }
+}

@@ -1,0 +1,25 @@
+@import "skeleton";
+
+.content_item {
+    // min-height: 100%;
+    padding: 30vh 0 0 0;
+    text-align: center;
+
+    & p {
+        font-weight: 700;
+
+        & span {
+            color: $master-color;
+        }
+    }
+}
+
+.contacts-grand-title {
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+    font-weight: 700;
+    color: $master-color;
+    text-transform: uppercase;
+    border-bottom: 1px dotted $g_color;
+}

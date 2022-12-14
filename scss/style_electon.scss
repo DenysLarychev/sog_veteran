@@ -1,0 +1,185 @@
+@import 'skeleton';
+
+.contacts-grand-title {
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+    font-weight: 700;
+    color: $master-color;
+    text-transform: uppercase;
+    border-bottom: 1px dotted $g_color;
+    min-width: 100%;
+}
+
+.content {
+
+    &__text-1 {
+    }
+
+    &__text-2 {
+
+    }
+
+    &__text-3 {
+        margin: 10px 0 0 0;
+
+        & p {
+            margin: 10px 0 0 0;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        & p span {
+            color: $master-color;
+            font-weight: 700;
+        }
+    }
+}
+
+.text {
+    // text-indent: 15px;
+    text-align: justify;
+    line-height: 1.2;
+    padding: 5px 0;
+}
+
+.contacts-grand-title {
+    @media  (min-width: 768px) {
+        margin: 110px 0 0 0;
+        font-size: 21px;
+    }
+}
+.text-1 {
+
+    &__list {
+
+        & li span {
+            color: $master-color;
+            font-weight: 700;
+        }
+    }
+}
+
+.li-container {
+    padding: 0 0 0 20px;
+    line-height: 1.2;
+}
+
+.text-2 {
+
+    &__list {
+
+        & li span {
+            color: $master-color;
+            font-weight: 700;
+        }
+
+    }
+}
+.candidates-flex-block {
+}
+
+
+.foto {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    & img {
+        max-width: 100%;
+    }
+}
+
+.temp {
+    color: $master-color;
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    transform: rotate(-45deg);
+}
+.candidates {
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    &__first-flex {
+    }
+
+    &__second-flex {
+    }
+
+    &__third-flex {
+    }
+
+    &__forth-flex {
+    }
+}
+
+.name {
+    padding: 10px;
+    color: black;
+}
+
+.cnd-flex {
+    flex: 0 0 40%;
+    text-align: center;
+    box-shadow: 0 0 10px grey;
+    margin: 5vw 0 0 0;
+    border-radius: 10px;
+} 
+
+@media (orientation: landscape) {
+    .cnd-flex {
+        flex: 0 0 21%;
+    }
+}
+
+@media (min-width: 768px) {
+    .cnd-flex {
+        flex: 0 0 21%;
+    }
+}
+.first {
+
+    &__foto {
+    }
+}
+.first {
+
+    &__name {
+    }
+}
+.second {
+
+    &__foto {
+    }
+
+    &__name {
+    }
+}
+.third {
+
+    &__foto {
+    }
+
+    &__name {
+    }
+}
+.forth {
+
+    &__fotot {
+    }
+
+    &__name {
+    }
+}
+.item {
+
+    &__list {
+    }
+}

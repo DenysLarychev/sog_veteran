@@ -1,0 +1,128 @@
+@import 'skeleton';
+
+.contacts-grand-title {
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+    font-weight: 700;
+    color: $master-color;
+    text-transform: uppercase;
+    border-bottom: 1px dotted $g_color;
+}
+
+.content {
+
+    &_item {
+    }
+}
+.candidate {
+
+    &__foto {
+        width: 40vw;
+        height: 40vw;
+        overflow: hidden;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0 0 20px grey;
+        margin: 15px auto;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    &__name {
+
+        &_item {
+        }
+    }
+
+    &__surname {
+    }
+
+    &__study {
+
+        &_item {
+        }
+    }
+
+    &__diploma {
+        width: 100%;
+        overflow: hidden;
+        margin: 10px 0;
+        border-radius: 10px;
+        box-shadow: 0 0 20px grey;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    &__work {
+    }
+
+    &__work-story {
+        width: 100%;
+        overflow: hidden;
+        margin: 10px 0;
+        border-radius: 10px;
+        box-shadow: 0 0 20px grey;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    &__plan {
+
+    }
+
+
+    &__plan-1 {
+        color: $master-color;
+        line-height: 1.2;
+
+    }
+
+    &__plan-list {
+        padding: 0 0 0 15px;
+        line-height: 1.2;
+
+        & li::first-letter {
+            color: $master-color;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+    }
+
+    &__plan-2 {
+        line-height: 1.2;
+
+
+    }
+}
+.text1 {
+    font-weight: 700;
+    padding: 10px 0 0 0;
+    text-decoration: underline;
+    color: black;
+}
+.text2 {
+    padding: 5px 0 0 0;
+    text-decoration: underline;
+}
+
+.bottom__item {
+    line-height: 3;
+    background-color: $master-color;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 40px auto;
+    box-shadow: 0 0 20px grey;
+    
+    & a {
+        color: white;
+    }
+}
