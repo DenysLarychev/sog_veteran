@@ -1,5 +1,12 @@
 @import 'skeleton';
 
+
+body {
+    background-color: black;
+    color: rgb(183, 183, 183);
+}
+
+
 .contacts-grand-title {
     font-size: 18px;
     text-align: center;
@@ -29,7 +36,9 @@
         width: 100%;
         overflow: hidden;
         margin: 10px 0;
-        border-radius: 5px;
+        border-radius: 15px;
+        // border: 1px solid rgb(183, 183, 183);
+        box-shadow: 0 0 10px grey;
 
         & img {
             width: 100%;
