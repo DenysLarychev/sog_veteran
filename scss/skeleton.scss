@@ -7,7 +7,7 @@
 
 $text-color: black;
 $bg-color: rgb(250, 250, 250);
-$master-color: rgb(240, 114, 69);
+$master-color: rgb(231, 88, 46);
 $g_color: rgb(68, 68, 68);
 $g-a_color: rgba(196, 196, 196, 0.2);
 $sec-nd_master_color: rgb(243, 147, 81);
@@ -15,7 +15,7 @@ $sec-nd_master_color: rgb(243, 147, 81);
 body {
       font-family: 'Montserrat', sans-serif;
       color: black;
-      background-color: $bg-color;
+      background-color: $g-color;
       height: 100%;
 
       &.lock {
@@ -199,9 +199,6 @@ body {
                         padding: 0 25px 0 0;
                         letter-spacing: 2px;
                   }
-		}
-
-		&__link {
 		}
 
             &__link-last {
